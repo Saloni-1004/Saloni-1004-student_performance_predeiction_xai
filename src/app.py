@@ -11,7 +11,7 @@ from scipy import sparse
 from sklearn.model_selection import train_test_split
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = PROJECT_ROOT / "data" / "processed" / "student-por-labeled.csv"
 MODEL_FILE = PROJECT_ROOT / "artifacts" / "notebook-selected-model.joblib"
 TOP_FEATURES = 10
